@@ -76,7 +76,7 @@ function StudentDetail() {
         </div>
       </div>
 
-      {/* Details Card */}
+      
       {/* Details Card */}
 <div className="bg-white rounded-2xl shadow-lg border-2 border-gray-100 overflow-hidden">
   <div className="bg-gradient-to-r from-purple-50 to-indigo-50 px-6 py-4 border-b-2 border-gray-100">

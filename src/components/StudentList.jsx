@@ -17,8 +17,11 @@ const StudentList = () => {
   })
 
   useEffect(() => {
+  // Only fetch if the list is empty
+  if (students.length === 0) {
     fetchStudents()
-  }, [])
+  }
+}, [])  
 
   const fetchStudents = async () => {
     try {
